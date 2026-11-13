@@ -13,6 +13,7 @@
 !/benchmark_branching_pubmedqa.py
 !/benchmark_final_pubmedqa.py
 !/plot_final_pubmedqa.py
+!/speculative_decoding.py
 
 # Experiment records, results, paper artifacts and caches stay local.
 /pubmedqa*/
