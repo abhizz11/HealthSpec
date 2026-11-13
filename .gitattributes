@@ -1,0 +1,2 @@
+# Saved protocol hashes depend on exact source bytes; avoid newline conversion.
+* -text

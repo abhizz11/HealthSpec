@@ -1,0 +1,25 @@
+﻿# Publish selected Python sources and repository setup files only.
+# Everything else remains local; no files are deleted.
+/*
+!/.gitignore
+!/.gitattributes
+!/README.md
+!/REPOSITORY_GUIDE.md
+!/requirements.txt
+!/adaptive_tree_sd.py
+!/fixed_tree_sd.py
+!/tree_configs.py
+!/benchmark_pubmedqa.py
+!/benchmark_branching_pubmedqa.py
+!/benchmark_final_pubmedqa.py
+!/plot_final_pubmedqa.py
+
+# Experiment records, results, paper artifacts and caches stay local.
+/pubmedqa*/
+/gamma_sweep*.json
+*.jsonl
+*.csv
+*.log
+__pycache__/
+*.py[cod]
+*.tmp

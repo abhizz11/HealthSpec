@@ -1,0 +1,8 @@
+# Recorded benchmark versions; install the matching CUDA-enabled PyTorch build separately.
+torch==2.13.0
+transformers==5.16.1
+# Original versions below were not recorded; these are unpinned dependencies.
+datasets
+huggingface-hub
+numpy
+matplotlib
